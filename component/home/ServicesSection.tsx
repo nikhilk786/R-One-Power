@@ -47,7 +47,7 @@ export default function ServicesSection() {
   }
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-[#F9FAFB]">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         
         {/* Header Section */}

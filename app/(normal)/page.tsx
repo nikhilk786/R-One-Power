@@ -1,11 +1,16 @@
 import ContactSection from '@/component/common/ContactSection'
 import AboutSection from '@/component/home/AboutSection'
+import BrandsSection from '@/component/home/BrandsSection'
 import HeroBanner from '@/component/home/HeroBanner'
 import IndustrialSolutions from '@/component/home/IndustrialSolutions'
 import LogoStrap from '@/component/home/LogoStrap'
 import ProcessSection from '@/component/home/ProcessSection'
 import ProjectsSection from '@/component/home/ProjectsSection'
+import RajasthanNetwork from '@/component/home/RajasthanNetwork'
+import ReadyToSolar from '@/component/home/ReadyToSolar'
 import ServicesSection from '@/component/home/ServicesSection'
+import SolarBenefits from '@/component/home/SolarBenefits'
+import SolarCalculator from '@/component/home/SolarCalculator'
 import Testimonials from '@/component/home/Testimonials'
 import WhyChoose from '@/component/home/WhyChoose'
 import React from 'react'
@@ -22,7 +27,13 @@ const page = () => {
       <ServicesSection/>
       <Testimonials/>
       <IndustrialSolutions/>
+      <SolarCalculator/>
+      <SolarBenefits/>
+      <BrandsSection/>
+      <RajasthanNetwork/>
       <ContactSection/>
+      <ReadyToSolar />
+
     </div>
   )
 }

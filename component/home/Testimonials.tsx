@@ -107,7 +107,7 @@ export default function Testimonials() {
                       </div>
                       <div className="text-right">
                         <p className="text-[10px] text-slate-300 uppercase font-bold tracking-tighter mb-1">Size</p>
-                        <p className="text-[#22C55E] font-black text-lg leading-none">{item.size}</p>
+                        <p className="text-[#16A34A] font-black text-lg leading-none">{item.size}</p>
                         <p className="text-[10px] text-slate-400 mt-1">{item.savings}</p>
                       </div>
                     </div>
