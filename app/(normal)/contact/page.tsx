@@ -11,7 +11,20 @@ import {
 } from "@/components/ui/card"
 import Faq from '@/Component/contact/Faq'
 import Questions from '@/Component/contact/Questions'
+import Image from 'next/image'
+import { IconMapPin, IconPhone, IconMail, IconClock } from '@tabler/icons-react'
+import { IconSunFilled } from '@tabler/icons-react'
+import Contact from '../../../public/Contact_bg.jpg'
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+import Faq from '@/Component/contact/Faq'
+import Questions from '@/Component/contact/Questions'
 
+const Page = () => {
 const Page = () => {
   return (
     <div>
@@ -50,16 +63,16 @@ const Page = () => {
 
       </div>
 
-   {/* Card section */}
-      <div className="relative -mt-16 md:-mt-24 lg:-mt-30 px-4 sm:px-6 pb-12 w-full max-w-[95%] lg:max-w-[90%] mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+      {/* Card section */}
+      <div className="relative -mt-30 px-4 sm:px-6 pb-12 max-w-[90%] mx-auto">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
 
-          <Card className="rounded-xl shadow-lg min-h-[200px] md:min-h-[270px] p-3 md:p-4">
+          <Card className="rounded-xl shadow-lg min-h-[230px] md:min-h-[270px] p-3 md:p-4">
             <CardHeader className="pb-3 md:pb-4 p-3 md:p-4">
               <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-blue-100 flex items-center justify-center mb-2">
                 <IconMapPin size={24} stroke={2} className="text-blue-500" />
               </div>
-              <CardTitle className="text-gray-900 font-bold text-xl md:text-3xl font-poppins mt-3 -mb-3">
+              <CardTitle className="text-gray-900 font-bold text-2xl md:text-3xl font-poppins mt-3 -mb-3">
                 Visit Us
               </CardTitle>
             </CardHeader>
@@ -73,12 +86,12 @@ const Page = () => {
             </CardContent>
           </Card>
 
-          <Card className="rounded-xl shadow-lg min-h-[200px] md:min-h-[270px] p-3 md:p-4">
+          <Card className="rounded-xl shadow-lg min-h-[230px] md:min-h-[270px] p-3 md:p-4">
             <CardHeader className="pb-3 md:pb-4 p-3 md:p-4">
               <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-blue-100 flex items-center justify-center mb-2">
                 <IconPhone size={24} stroke={2} className="text-blue-500" />
               </div>
-              <CardTitle className="text-gray-900 font-bold text-xl md:text-3xl font-poppins mt-3 -mb-3">
+              <CardTitle className="text-gray-900 font-bold text-2xl md:text-3xl font-poppins mt-3 -mb-3">
                 Call Us
               </CardTitle>
             </CardHeader>
@@ -92,12 +105,12 @@ const Page = () => {
             </CardContent>
           </Card>
 
-          <Card className="rounded-xl shadow-lg min-h-[200px] md:min-h-[270px] p-3 md:p-4">
+          <Card className="rounded-xl shadow-lg min-h-[230px] md:min-h-[270px] p-3 md:p-4">
             <CardHeader className="pb-3 md:pb-4 p-3 md:p-4">
               <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-blue-100 flex items-center justify-center mb-2">
                 <IconMail size={24} stroke={2} className="text-blue-500" />
               </div>
-              <CardTitle className="text-gray-900 font-bold text-xl md:text-3xl font-poppins mt-3 -mb-3">
+              <CardTitle className="text-gray-900 font-bold text-2xl md:text-3xl font-poppins mt-3 -mb-3">
                 Email Us
               </CardTitle>
             </CardHeader>
@@ -111,12 +124,12 @@ const Page = () => {
             </CardContent>
           </Card>
 
-          <Card className="rounded-xl shadow-lg min-h-[200px] md:min-h-[270px] p-3 md:p-4">
+          <Card className="rounded-xl shadow-lg min-h-[230px] md:min-h-[270px] p-3 md:p-4">
             <CardHeader className="pb-3 md:pb-4 p-3 md:p-4">
               <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-blue-100 flex items-center justify-center mb-2">
                 <IconClock size={24} stroke={2} className="text-blue-500" />
               </div>
-              <CardTitle className="text-gray-900 font-bold text-xl md:text-3xl font-poppins mt-3 -mb-3">
+              <CardTitle className="text-gray-900 font-bold text-2xl md:text-3xl font-poppins mt-3 -mb-3">
                 Working Hours
               </CardTitle>
             </CardHeader>
@@ -143,4 +156,5 @@ const Page = () => {
   )
 }
 
+export default Page
 export default Page
